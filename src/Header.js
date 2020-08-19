@@ -20,9 +20,9 @@ function Header( {backButton} ){
                     </IconButton>
 
             )}
-            
+
             <Link to="/">
-                <img className="header__logo"
+                <img className="tinder__logo"
                     src="https://1000logos.net/wp-content/uploads/2018/07/tinder-logo.png"
                     alt="Tider Logo"/>
             </Link>
@@ -31,7 +31,7 @@ function Header( {backButton} ){
                     <ForumIcon className="header_icon" fontSize="large"/>
                 </IconButton>
             </Link>
-            
+
 
         </div>
     )
